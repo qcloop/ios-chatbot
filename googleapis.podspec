@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
                  :tag => '0.0.1' }
   s.summary  = 'Service definitions for Google Cloud Platform APIs'	  
 
-  s.ios.deployment_target = '7.1'
-  s.osx.deployment_target = '10.9'
+  s.ios.deployment_target = '18'
+  s.osx.deployment_target = '10.15'
 
  # Run protoc with the Objective-C and gRPC plugins to generate protocol messages and gRPC clients.
-  s.dependency "!ProtoCompiler-gRPCPlugin", "~> 1.0.0-pre1.1"
+  s.dependency "!ProtoCompiler-gRPCPlugin", "~> 1.73"
 
   # Pods directory corresponding to this app's Podfile, relative to the location of this podspec.
   pods_root = 'Pods'

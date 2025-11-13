@@ -44,7 +44,7 @@
 
 #import "CBDefines.h"
 
-NSString *const CBApiKey = @"your google API key";
+NSString *const CBApiKey = @"AIzaSyCk24ee2jncuV0X2KyXPgUPCH6i1Q_EQrE";
 
 // English Settings
 NSString *const CBLanguage = @"en-US";
